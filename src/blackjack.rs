@@ -12,3 +12,8 @@ pub fn sort_cards(deck: &mut Vec<u8>) -> [u8;4] {
 
     pares
 }
+
+pub fn create_room(player1_id: &str) -> String{
+    let room_id = format!("room_{}", player1_id);
+    room_id
+}
